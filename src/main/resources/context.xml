@@ -8,6 +8,7 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context-3.1.xsd">
     <context:annotation-config/>
+    <bean class="quoters.PostProxyInvokerContextListener"/>
     <bean class="quoters.ProfilingHandlerBeanPostProcessor"/>
     <bean class="quoters.InjectRandomAnnotationBeanPostProcessor"/>
     <bean class="quoters.TerminatorQuoter" id = "terminatorQuoter">
