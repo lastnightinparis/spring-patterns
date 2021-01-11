@@ -34,6 +34,6 @@ public class InjectRandomAnnotationBeanPostProcessor implements BeanPostProcesso
 
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-        return null;
+        return bean;
     }
 }
