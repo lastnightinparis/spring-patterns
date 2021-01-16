@@ -13,7 +13,7 @@ import java.util.Random;
 @ComponentScan(basePackages = "screensaver")
 public class Config {
     @Bean
-    @Scope(value = "prototype")
+    @Scope(value = "periodical")
     public Color color() {
         return new Color(new Random().nextInt(255), new Random().nextInt(255), new Random().nextInt(255));
     }
