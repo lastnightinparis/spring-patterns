@@ -7,7 +7,7 @@ import lombok.SneakyThrows;
  * Created on 17.01.2021
  */
 
-public class RussianNdsResolver implements NdsResolver{
+public class RussianNdsResolver implements NdsResolver {
     private double nds;
 
     public RussianNdsResolver() {
@@ -21,6 +21,6 @@ public class RussianNdsResolver implements NdsResolver{
 
     @Override
     public double getNds() {
-       return nds;
+        return nds;
     }
 }

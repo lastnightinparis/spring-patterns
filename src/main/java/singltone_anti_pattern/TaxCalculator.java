@@ -11,7 +11,6 @@ public class TaxCalculator {
     private NdsResolver ndsResolver;
 
     public double withNds(double price){
-        System.out.println(ndsResolver.getNds() * price);
          return ndsResolver.getNds() * price + price;
     }
 }
